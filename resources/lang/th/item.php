@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'create' => 'สร้างรายการสินค้า',
+    'item_information' => 'จัดการรายการสินค้า',
+    'amount' => 'Amount',
+    'discount' => 'Discount',
+    'fee' => 'Fee',
+    'net_amount' => 'Net Amount',
+    'vat' => 'Vat',
+    'total_amont_vat' => 'Total Amont Vat',
+    'due_date' => 'Due Date',
+    'ref_1' => 'Reference 1',
+    'ref_2' => 'Reference 2',
+    'item' => 'Item',
+    'item_code' => 'รหัสรายการ',
+    'item_net_amount' => 'ราคาต่อรายการ',
+    'item_qty' => 'QTY.',
+    'item_amount' => 'ราคาต่อรายการ',
+    'item_name' => 'ชื่อรายการ',
+    'item_vat' => 'Item Vat',
+    'item_total_fee' => 'Item Total FEE',
+    'item_discount' => 'Item Discount',
+    'item_total_amount' => 'Item Total Amount',
+    'add_item' => 'Add Item',
+    'select_date' => 'Select Due Date',
+    'delete'    => 'ลบรายการสินค้า',
+    'sure_delete' => 'คุณต้องการที่จะลบรายการสินค้านี้หรือไม่?',
+    'edit_item' => 'แก้ไขรายการสินค้า',
+    'add_item'   => 'เพิ่มรายการ'
+];

@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'create' => 'Create Item Product',
+    'item_information' => 'Item Product Setting',
+    'amount' => 'Amount',
+    'discount' => 'Discount',
+    'fee' => 'Fee',
+    'net_amount' => 'Net Amount',
+    'vat' => 'Vat',
+    'total_amont_vat' => 'Total Amont Vat',
+    'due_date' => 'Due Date',
+    'ref_1' => 'Reference 1',
+    'ref_2' => 'Reference 2',
+    'item' => 'Item',
+    'item_code' => 'Item Code',
+    'item_net_amount' => 'Total Amount',
+    'item_qty' => 'QTY.',
+    'item_amount' => 'Item Amount(Per Unit)',
+    'item_name' => 'Item Name',
+    'item_vat' => 'Item Vat',
+    'item_total_fee' => 'Item Total FEE',
+    'item_discount' => 'Item Discount',
+    'item_total_amount' => 'Item Total Amount',
+    'add_item' => 'Add Item',
+    'select_date' => 'Select Due Date',    
+    'delete'    => 'Delete Item?',
+    'sure_delete' => 'Are you sure you want to delete this item?',
+    'edit_item' => 'Edit Data Item',
+    'add_item'   => 'Add Item'
+];

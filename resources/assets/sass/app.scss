@@ -1,0 +1,143 @@
+// Variables 
+@import "variables";
+
+@mixin type($pixel:1px,$type:solid,$color:$grey,$border:$full){
+  #{$border}: $pixel $type $color;
+}
+@mixin theme-color($bg-color:$blue , $border:$blue , $text-color:$white) {
+  background-color: $bg-color;
+  background: $bg-color;
+  border-color: $border;
+  color:$text-color;
+}
+@mixin cursor($style:auto){
+  cursor: $style !important;
+}
+@mixin focused($bg,$color){
+  background-color: $bg !important;
+  background: $bg !important;
+  border-color: $bg !important;
+  color: $color !important;
+}
+@mixin ColorCode ($color){
+  color: $color !important;
+}
+.header.bg-primary{
+  @include theme-color($blue, $blue, $white);
+}
+.navbar.bg-primary{
+  @include theme-color($blue, $blue, $white);
+}
+.page-item.active .page-link{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+a.bg-gradient-danger{
+  @include theme-color($danger, $danger, $white);
+}
+.icon-shape.bg-gradient-danger{
+  @include theme-color($danger, $danger, $white);
+}
+.icon-shape.bg-gradient-primary{
+  @include theme-color($light_blue, $light_blue, $white);
+}
+.btn-warning{
+  @include theme-color($danger , $danger , $white);
+}
+.btn-default{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+.btn-secondary{
+  @include theme-color($white , $darker_blue,$darker_blue);
+}
+button[type="submit"]{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+button[type="button"].btn-primary{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+button.btn-success{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+a.btn.btn-primary{
+  @include theme-color($darker_blue , $darker_blue , $white);
+}
+a.btn-neutral{
+  @include theme-color($white , $light_grey , $dark_grey);
+}
+a.navbar-brand{
+  padding-top: 3.5rem !important;
+}
+.navbar-vertical .navbar-brand-img, .navbar-vertical .navbar-brand > img{
+  max-height: 6rem !important;
+}
+.btn-outline-success{
+  @include theme-color($white, $darker_blue , $darker_blue);
+}
+.btn-outline-danger{
+  @include theme-color($white, $danger , $danger);
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+   @include theme-color($darker_blue , $darker_blue , $white);
+}
+button.btn-primary{
+      @include theme-color($darker_blue , $darker_blue , $white);
+  .template-download , {
+    @include theme-color($darker_blue , $darker_blue , $white);
+  }
+}
+.nav-pills .nav-link{
+  @include type(1px,solid,$grey,$full);
+  @include theme-color(null , null , $black);
+}
+
+button.btn-link > span{
+  @include theme-color(null , null , $black);
+}
+
+.form-control:focus , .focused .form-control{
+  @include theme-color($white , $darker_blue , $black);
+}
+#top_view_section{
+  @include type(2px,solid,$blue,$bottom);
+}
+#top_view_section h4{
+  @include theme-color(null , null , $dark_blue);
+}
+.card-header h3{
+   @include theme-color(null , null , $black);
+}
+h5.title{
+  @include theme-color(null , null , $blue);
+}
+.text-muted{
+  @include theme-color(null , null , $black);
+}
+.table {
+  thead {
+    th{
+      font-size: $header1;
+    }
+  }
+}
+
+input[type="radio"]:disabled , input[type="radio"]:disabled + label ,
+ input[type="checkbox"]:disabled , input[type="checkbox"]:disabled + label ,
+ .form-control:disabled{
+  @include cursor(not-allowed);
+  @include ColorCode(#333333);
+  opacity: .65;
+}
+
+input[type="radio"] ,
+ input[type="checkbox"] ,
+ select.form-control
+{
+  @include cursor(pointer);
+}
+.form-control[readonly]:focus, .focused .form-control[readonly] {
+    @include focused(#e9ecef,#333333);
+    @include cursor(not-allowed);
+}
+.form-control:disabled, .form-control[readonly]{
+  @include cursor(not-allowed);
+}

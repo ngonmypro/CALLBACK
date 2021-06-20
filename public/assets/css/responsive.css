@@ -1,0 +1,39 @@
+﻿@media only screen and (min-device-width: 320px) and (max-device-width: 414px) and (orientation: portrait) {
+  #login_section {
+      width: 85vw;
+      max-width: 320px;
+      margin-left: 0;
+  }
+}
+/* ----------- iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){ 
+  #login_section {
+      width: 85vw;
+      max-width: 320px;
+      margin-left: 0;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape){ 
+ 
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #login_section {
+      top: calc(29vh - 50px);
+  }
+      
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #login_section {
+      top: calc(25vh - 50px);
+  }
+  .header-title{
+    font-size: 70px;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  #login_section {
+      top: calc(28vh - 50px);
+  }
+}

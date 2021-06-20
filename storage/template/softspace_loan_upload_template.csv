@@ -1,0 +1,6 @@
+product_name,product_price,installment,tenure,name,duitnow_user,ic,email,mobile_no,delivery_address,postcode,state,document_name,document_url
+Galaxy S10+,1499,149.9,10,Javanese Lai,YES,116077776995,javanese@example.com,1114389543,58 Jalan Ang Seng,50475,Kuala Lumpur,,
+"Galaxy S10+, Charger",1600,160,10,Ratnasari Para,YES,128553733019,ratnasari@example.com,11234124111,58 Jalan Ang Seng,50411,Kuala Lumpur,example citizen id,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Thai_National_ID_card_2017_version.png/190px-Thai_National_ID_card_2017_version.png
+,,,,,,,,,,,,example bank statement,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpbtEG6N7yM6nGnjrJNJ8fuOjjpGhLyTCzixWUOzX4vz0-OuJ4
+Galaxy S10,1100,110,10,Wira Kung,YES,128473661231,wira@example.com,11234774111,58 Jalan Ang Seng,50477,Kuala Lumpur,example citizen id,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Thai_National_ID_card_2017_version.png/190px-Thai_National_ID_card_2017_version.png
+,,,,,,,,,,,,example bank statement,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpbtEG6N7yM6nGnjrJNJ8fuOjjpGhLyTCzixWUOzX4vz0-OuJ4

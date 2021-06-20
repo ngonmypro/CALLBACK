@@ -1,0 +1,2 @@
+invoice_number,customer_code,payment date,payment time,from name,from bank,Transaction ID,Ref 1,Ref 2,Ref 3,Payment Channel,account no,remarks
+TVi923999,CUST101,2019-09-28,11:23:00,Test Name,Digi Bank,TRAN001,12412414141,,,Cash,(payee acc no),my remark here

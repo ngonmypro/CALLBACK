@@ -1,0 +1,38 @@
+<?php
+return 
+    [
+        'upload_etax_preview'       => 'Upload K-Electronic Tax Preview',
+        'total'                     => 'Total',
+        'success'                   => 'Success',
+        'fails'                     => 'Fails',
+        'invoice_number'            => 'Invoice Number',
+        'buyer_type'                => 'Buyer Type',
+        'buyer_tax_id'              => 'Buyer Tax ID',
+        'buyer_name'                => 'Buyer Name',
+        'buyer_mail'                => 'Buyer Mail',
+        'buyer_mail_cc'             => 'Buyer Mail CC',
+        'status'                    => 'Status',
+        'remark'                    => 'Remark',
+        'cancel_all'                => 'Cancel',
+        'cancel'                => 'Cancel',
+        'close'                     => 'Close',
+        'remark_detail'             => 'Remark Detail',
+        'next'                      => 'Next',
+        'previous'                  => 'Previous',
+        'pass'                      => 'PASS',
+        'confirm'                   => 'Confirm',
+        'press_confirm'             => 'Press Confirm For Upload K-Electronic Tax',
+        'name_upload'               => 'Name for this upload',
+        'description'               => 'Description',
+        'total_amount_diff'         => 'Different',
+        'product_description'       => 'Product Name',
+        'export_date'               => 'Export Date',
+        'reference'                 => 'Reference',
+        'save_date'                 => 'Record Date',
+        'document_reference'        => 'Doc. ref',
+        'document_reference_date'   => 'Doc. ref date',
+        'document_reference_code'   => 'Doc. ref code',
+        'currency'                  => 'Currency',
+        'total_amount'              => 'Tatal Amount'
+
+    ];

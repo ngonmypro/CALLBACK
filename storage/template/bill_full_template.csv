@@ -1,0 +1,2 @@
+invoice_number,currency,customer_code,amount,discount,fee,net_amount,vat,total_amount_vat,total_amount,due_date,item_quantity,item_name,item_total_vat,item_total_fee,item_amount,item_discount,item_total_amount,reference_1,reference_2
+test-inv-1111,THB,belly111,2000.034,50.50,25.50,1175,7.00,140,2115,2019-07-03,1,ขนมเปียกปูน,140,34,2000,50,1950,Free text,Free text

@@ -1,0 +1,37 @@
+<?php
+return 
+    [
+        'upload_etax_preview'       => 'ตัวอย่างไฟล์นำเข้า',
+        'total'                     => 'จำนวนไฟล์ทั้งหมด',
+        'success'                   => 'สำเร็จ',
+        'fails'                     => 'ไม่สำเร็จ',
+        'invoice_number'            => 'เลขใบแจ้งหนี้',
+        'buyer_type'                => 'ประเภทผู้ซื้อ',
+        'buyer_tax_id'              => 'รหัสผู้ซื้อ',
+        'buyer_name'                => 'ชื่อผู้ซื้อ',
+        'buyer_mail'                => 'อีเมลล์ผู้ซื้อ',
+        'buyer_mail_cc'             => 'อีเมลล์สำเนาผู้ซื้อ',
+        'status'                    => 'สถานะ',
+        'remark'                    => 'ข้อสังเกต',
+        'cancel_all'                => 'ยกเลิกการนำเข้า',
+        'close'                     => 'ปิด',
+        'remark_detail'             => 'รายละเอียด',
+        'next'                      => 'ถัดไป',
+        'previous'                  => 'ย้อนกลับ',
+        'pass'                      => 'ผ่าน',
+        'confirm'                   => 'ยืนยันการนำเข้าไฟล์',
+        'press_confirm'             => 'กรุณากดปุ่มยืนยันเพื่อน้ำไฟล์เข้าระบบ K-Electronic Tax',
+        'name_upload'               => 'ชื่อชุดไฟล์',
+        'description'               => 'รายละเอียด',
+        'total_amount_diff'         => 'ส่วนต่าง',
+        'product_description'       => 'ชื่อสินค้า',
+        'export_date'               => 'วันที่ออกเอกสาร',
+        'reference'                 => 'อ้างอิง',
+        'save_date'                 => 'วันที่บันทึกข้อมูล',
+        'document_reference'        => 'เอกสารอ้างอิง',
+        'document_reference_date'   => 'วันที่ออกเอกสารอ้างอิง',
+        'document_reference_code'   => 'รหัสเอกสารอ้างอิง',
+        'currency'                  => 'หน่วยเงิน',
+        'total_amount'              => 'ยอดรวมทั้งหมด'
+
+    ];

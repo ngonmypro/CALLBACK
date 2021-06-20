@@ -1,0 +1,3 @@
+invoice_number,currency,customer_code,due_date,item_quantity,item_total_amount,item_name,total_amount
+inv-001,THB,abc12345678,2019-12-25,1,7000.00,ค่าเทอม 1/2563,9000.00
+inv-001,THB,abc12345678,2019-12-25,1,2000.00,ค่าอุปกรณ์กีฬา,9000.00
